@@ -1,15 +1,16 @@
-Dijital Davetiye - Son Hali
+DAVETİYE KURULUM
 
-Kurulum:
-1. ZIP dosyasını açın.
-2. Vercel/Netlify gibi bir platforma klasörü olduğu gibi yükleyin.
-3. Ana dosya: index.html
+Bu ZIP artık kök dizinde hazırdır:
 
-İçerik:
-- Mühüre tıklanınca müzik başlar: assets/idea-15.mp3
-- Arka plan görseli: assets/landscape-bg.jpeg
-- Besmele görsel değil, HTML içinde gerçek Arapça yazı olarak kullanıldı.
-- Glass effect kartlar ve kutucuklarda aktif.
+index.html
+assets/
+  landscape-bg.jpeg
+  idea-15.mp3
+  petal.png
+  yellow-flowers.jpg
 
-Not:
-Tarayıcı güvenliği nedeniyle müzik, kullanıcı mühüre tıkladıktan sonra başlar.
+Vercel'e yüklerken ZIP'i açıp içindeki index.html ve assets klasörünü aynı anda yükle.
+index.html tek başına yüklenirse arka plan ve müzik çalışmaz.
+
+Müzik dosyası: assets/idea-15.mp3
+Arka plan dosyası: assets/landscape-bg.jpeg
